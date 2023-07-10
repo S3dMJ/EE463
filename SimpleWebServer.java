@@ -3,22 +3,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Date;
 
-/**
- * @(#)SimpleWebServer.java
- *
- * @author Adapted from SSaurel's Blog
- *         by Dr. Abdulghani M. Al-Qasimi
- *         Modified by BG3
- *         Saad A. Al-Jehani [1935151]
- *         Khaled M. Al-Dahasy [1935129]
- *         Nawaf S. Al-Harbi [193XXXX]
- * @version 2.00 2023/5/21
- *
- *          This is a simple web server for teaching purposes.
- *          It works as a single threaded application, where,
- *          while a client request is being served, other clients
- *          will have to wait until that request is finished.
- */
+
 
 public class SimpleWebServer {
 
